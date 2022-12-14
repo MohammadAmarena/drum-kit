@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+  background-color: #333;
+}
+body h1 {
+  font-size: 5rem;
+  color: green;
+}
+body .container {
+  display: flex;
+  gap: 3rem;
+  margin-top: 10rem;
+  width: 100%;
+}
+body .container .drum {
+  width: 15rem;
+  height: 15rem;
+  font-size: 3rem;
+  color: lightgreen;
+}
+body .container .w {
+  background-image: url("images/tom1.png");
+}
+body .container .a {
+  background-image: url("images/tom2.png");
+}
+body .container .s {
+  background-image: url("images/tom3.png");
+}
+body .container .d {
+  background-image: url("images/tom4.png");
+}
+body .container .j {
+  background-image: url("images/snare.png");
+}
+body .container .k {
+  background-image: url("images/crash.png");
+}
+body .container .l {
+  background-image: url("images/kick.png");
+}
+body .pressed {
+  box-shadow: 0 0 10px wheat;
+  opacity: 0.4;
+}/*# sourceMappingURL=style.css.map */
